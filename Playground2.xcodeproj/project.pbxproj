@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4090329C29DC7F7000582819 /* NativePartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 4090329B29DC7F7000582819 /* NativePartialSheet */; };
 		9A0A666129DA7B8700BF5FB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A665F29DA7B8700BF5FB0 /* MapView.swift */; };
 		9A0A666229DA7B8700BF5FB0 /* LocationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */; };
 		9A0A666429DA7C7900BF5FB0 /* AlertAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A666329DA7C7900BF5FB0 /* AlertAnnotation.swift */; };
@@ -35,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE5FCEA29D91AFC002B76A3 /* Map in Frameworks */,
+				4090329C29DC7F7000582819 /* NativePartialSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +108,7 @@
 			name = Playground2;
 			packageProductDependencies = (
 				9AE5FCE929D91AFC002B76A3 /* Map */,
+				4090329B29DC7F7000582819 /* NativePartialSheet */,
 			);
 			productName = Playground2;
 			productReference = 9A9C7AAC2775736C00519111 /* Playground2.app */;
@@ -137,6 +140,7 @@
 			mainGroup = 9A9C7AA32775736C00519111;
 			packageReferences = (
 				9AE5FCE829D91AFC002B76A3 /* XCRemoteSwiftPackageReference "Map" */,
+				4090329A29DC7F7000582819 /* XCRemoteSwiftPackageReference "NativePartialSheet" */,
 			);
 			productRefGroup = 9A9C7AAD2775736C00519111 /* Products */;
 			projectDirPath = "";
@@ -309,7 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Playground2/Preview Content\"";
-				DEVELOPMENT_TEAM = GW7TNK3TJ4;
+				DEVELOPMENT_TEAM = 84WPVNZ8GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Playground2/Info.plist;
@@ -344,7 +348,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Playground2/Preview Content\"";
-				DEVELOPMENT_TEAM = GW7TNK3TJ4;
+				DEVELOPMENT_TEAM = 84WPVNZ8GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Playground2/Info.plist;
@@ -395,6 +399,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4090329A29DC7F7000582819 /* XCRemoteSwiftPackageReference "NativePartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoolONEOfficial/NativePartialSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		9AE5FCE829D91AFC002B76A3 /* XCRemoteSwiftPackageReference "Map" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pauljohanneskraft/Map";
@@ -406,6 +418,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4090329B29DC7F7000582819 /* NativePartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4090329A29DC7F7000582819 /* XCRemoteSwiftPackageReference "NativePartialSheet" */;
+			productName = NativePartialSheet;
+		};
 		9AE5FCE929D91AFC002B76A3 /* Map */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9AE5FCE829D91AFC002B76A3 /* XCRemoteSwiftPackageReference "Map" */;
