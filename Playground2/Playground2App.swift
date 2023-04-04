@@ -14,6 +14,7 @@ struct Playground2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView3()
+                .environmentObject(LocationManager.shared)
         }
     }
 }
