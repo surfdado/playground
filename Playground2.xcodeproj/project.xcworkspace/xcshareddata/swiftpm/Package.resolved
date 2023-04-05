@@ -8,15 +8,6 @@
         "revision" : "3eed43ceaf7892a4021a34f87da2e6561e50318c",
         "version" : "0.2.0"
       }
-    },
-    {
-      "identity" : "nativepartialsheet",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/CoolONEOfficial/NativePartialSheet",
-      "state" : {
-        "revision" : "af982461bd837fd48b674b5fbaf7edfe41b0d034",
-        "version" : "2.0.2"
-      }
     }
   ],
   "version" : 2

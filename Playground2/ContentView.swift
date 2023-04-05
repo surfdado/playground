@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import NativePartialSheet
 
 struct CustomCorner: Shape {
     var corners: UIRectCorner
@@ -41,8 +40,9 @@ struct ContentView3: View {
     @State var stopRequested = false
     @State var hideMapSymbol = false
 
-    @State private var detent: Detent?
-    
+    @State private var detent: PresentationDetent?
+    @State private var mapshown = false
+
     let headerMargin: CGFloat = 30
 
     var body: some View {
@@ -85,6 +85,7 @@ struct ContentView3: View {
             
             HStack {
                 Button {
+                    mapshown = true
                     detent = .medium
                 } label: {
                     Image(systemName: "map")
@@ -96,7 +97,7 @@ struct ContentView3: View {
                 Spacer()
             }
         }
-        .sheet(selectedDetent: $detent) { detent in
+        .sheet(isPresented: $mapshown) {
             MapView(isActiveRide: true)
                 .environmentObject(locationMgr)
                 .padding(.horizontal, 8)
@@ -110,7 +111,7 @@ struct ContentView3: View {
         }
         .presentationDetents([.large, .medium])
         .presentationDragIndicator(.visible)
-        .edgeAttachedInCompactHeight(true)
+        //.edgeAttachedInCompactHeight(true)
     }
     func updateOffset() {
         DispatchQueue.main.async {
