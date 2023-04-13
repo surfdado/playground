@@ -10,10 +10,12 @@
 		9A0A666129DA7B8700BF5FB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A665F29DA7B8700BF5FB0 /* MapView.swift */; };
 		9A0A666229DA7B8700BF5FB0 /* LocationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */; };
 		9A0A666429DA7C7900BF5FB0 /* AlertAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A666329DA7C7900BF5FB0 /* AlertAnnotation.swift */; };
+		9A4F8E3529DD4D10000BE3E4 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F8E3429DD4D10000BE3E4 /* RideView.swift */; };
 		9A9C7AB02775736C00519111 /* Playground2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C7AAF2775736C00519111 /* Playground2App.swift */; };
 		9A9C7AB22775736C00519111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C7AB12775736C00519111 /* ContentView.swift */; };
 		9A9C7AB42775737000519111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9C7AB32775737000519111 /* Assets.xcassets */; };
 		9A9C7AB72775737000519111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9C7AB62775737000519111 /* Preview Assets.xcassets */; };
+		9AA1F96C29E877CF00444CAD /* InternetPresetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1F96B29E877CF00444CAD /* InternetPresetsView.swift */; };
 		9AE5FCEA29D91AFC002B76A3 /* Map in Frameworks */ = {isa = PBXBuildFile; productRef = 9AE5FCE929D91AFC002B76A3 /* Map */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +24,13 @@
 		9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationMgr.swift; path = Playground2/LocationMgr.swift; sourceTree = SOURCE_ROOT; };
 		9A0A666329DA7C7900BF5FB0 /* AlertAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertAnnotation.swift; path = Playground2/AlertAnnotation.swift; sourceTree = SOURCE_ROOT; };
 		9A0A666529DA98FF00BF5FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9A4F8E3429DD4D10000BE3E4 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
 		9A9C7AAC2775736C00519111 /* Playground2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9C7AAF2775736C00519111 /* Playground2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground2App.swift; sourceTree = "<group>"; };
 		9A9C7AB12775736C00519111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A9C7AB32775737000519111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A9C7AB62775737000519111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AA1F96B29E877CF00444CAD /* InternetPresetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetPresetsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 				9A0A666329DA7C7900BF5FB0 /* AlertAnnotation.swift */,
 				9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */,
 				9A0A665F29DA7B8700BF5FB0 /* MapView.swift */,
+				9A4F8E3429DD4D10000BE3E4 /* RideView.swift */,
 			);
 			path = FCMap;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 				9A9C7AB12775736C00519111 /* ContentView.swift */,
 				9A9C7AB32775737000519111 /* Assets.xcassets */,
 				9A9C7AB52775737000519111 /* Preview Content */,
+				9AA1F96B29E877CF00444CAD /* InternetPresetsView.swift */,
 			);
 			path = Playground2;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4F8E3529DD4D10000BE3E4 /* RideView.swift in Sources */,
 				9A9C7AB22775736C00519111 /* ContentView.swift in Sources */,
+				9AA1F96C29E877CF00444CAD /* InternetPresetsView.swift in Sources */,
 				9A0A666129DA7B8700BF5FB0 /* MapView.swift in Sources */,
 				9A0A666429DA7C7900BF5FB0 /* AlertAnnotation.swift in Sources */,
 				9A0A666229DA7B8700BF5FB0 /* LocationMgr.swift in Sources */,

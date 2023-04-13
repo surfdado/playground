@@ -7,10 +7,12 @@
 
 import SwiftUI
 import MapKit
+import AVFoundation
 
 struct MapView: UIViewRepresentable {
     @EnvironmentObject var locationMgr: LocationManager
     var isActiveRide: Bool
+    @State private var chartLocation = PosAnnotation(coordinate: CLLocationCoordinate2D(), vescstate: 1)
 
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
@@ -31,6 +33,8 @@ struct MapView: UIViewRepresentable {
     func updateUIView(_ mapView: MKMapView, context: Context) {
         //If you changing the Map Annotation then you have to remove old Annotations
         //mapView.removeAnnotations(mapView.annotations)
+        AudioServicesPlayAlertSound(SystemSoundID(1103))
+
         if locationMgr.alerts.isEmpty && locationMgr.loadedLocations.isEmpty && locationMgr.newAlerts.isEmpty && locationMgr.addedLocations.isEmpty {
             // trip restarted?
             mapView.removeAnnotations(mapView.annotations)
