@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		40114C8129EA0A1B00D6DFA9 /* TuneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8029EA0A1B00D6DFA9 /* TuneCard.swift */; };
-		40114C8929EA0AD500D6DFA9 /* OnlineTuneCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */; };
-		40114C8E29EA197800D6DFA9 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8D29EA197800D6DFA9 /* CSV.swift */; };
+		40114C9829EA2F3A00D6DFA9 /* OnlineTuneCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C9729EA2F3A00D6DFA9 /* OnlineTuneCardsApp.swift */; };
+		40114C9A29EA2F3A00D6DFA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C9929EA2F3A00D6DFA9 /* ContentView.swift */; };
+		40114C9C29EA2F3A00D6DFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40114C9B29EA2F3A00D6DFA9 /* Assets.xcassets */; };
+		40114C9F29EA2F3A00D6DFA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40114C9E29EA2F3A00D6DFA9 /* Preview Assets.xcassets */; };
+		40114CA329EA2F4300D6DFA9 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8D29EA197800D6DFA9 /* CSV.swift */; };
+		40114CA429EA2F4700D6DFA9 /* OnlineTuneCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */; };
+		40114CA629EA2FA800D6DFA9 /* TuneCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114CA529EA2FA800D6DFA9 /* TuneCardDetailView.swift */; };
 		4090329C29DC7F7000582819 /* NativePartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 4090329B29DC7F7000582819 /* NativePartialSheet */; };
 		9A0A666129DA7B8700BF5FB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A665F29DA7B8700BF5FB0 /* MapView.swift */; };
 		9A0A666229DA7B8700BF5FB0 /* LocationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */; };
@@ -23,23 +28,17 @@
 		9AE5FCEA29D91AFC002B76A3 /* Map in Frameworks */ = {isa = PBXBuildFile; productRef = 9AE5FCE929D91AFC002B76A3 /* Map */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		40114C8429EA0AD400D6DFA9 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		40114C8029EA0A1B00D6DFA9 /* TuneCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneCard.swift; sourceTree = "<group>"; };
-		40114C8629EA0AD400D6DFA9 /* OnlineTuneCards */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OnlineTuneCards; sourceTree = BUILT_PRODUCTS_DIR; };
 		40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTuneCards.swift; sourceTree = "<group>"; };
 		40114C8D29EA197800D6DFA9 /* CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		40114C9529EA2F3900D6DFA9 /* OnlineTuneCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineTuneCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40114C9729EA2F3A00D6DFA9 /* OnlineTuneCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTuneCardsApp.swift; sourceTree = "<group>"; };
+		40114C9929EA2F3A00D6DFA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40114C9B29EA2F3A00D6DFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40114C9E29EA2F3A00D6DFA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40114CA529EA2FA800D6DFA9 /* TuneCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneCardDetailView.swift; sourceTree = "<group>"; };
+		40114CA929EA32F800D6DFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9A0A665F29DA7B8700BF5FB0 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Playground2/MapView.swift; sourceTree = SOURCE_ROOT; };
 		9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationMgr.swift; path = Playground2/LocationMgr.swift; sourceTree = SOURCE_ROOT; };
 		9A0A666329DA7C7900BF5FB0 /* AlertAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertAnnotation.swift; path = Playground2/AlertAnnotation.swift; sourceTree = SOURCE_ROOT; };
@@ -54,7 +53,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40114C8329EA0AD400D6DFA9 /* Frameworks */ = {
+		40114C9229EA2F3900D6DFA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,13 +72,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40114C8729EA0AD500D6DFA9 /* OnlineTuneCards */ = {
+		40114C9629EA2F3A00D6DFA9 /* OnlineTuneCards */ = {
 			isa = PBXGroup;
 			children = (
+				40114CA929EA32F800D6DFA9 /* Info.plist */,
+				40114C9729EA2F3A00D6DFA9 /* OnlineTuneCardsApp.swift */,
+				40114C9929EA2F3A00D6DFA9 /* ContentView.swift */,
+				40114CA529EA2FA800D6DFA9 /* TuneCardDetailView.swift */,
 				40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */,
 				40114C8D29EA197800D6DFA9 /* CSV.swift */,
+				40114C9B29EA2F3A00D6DFA9 /* Assets.xcassets */,
+				40114C9D29EA2F3A00D6DFA9 /* Preview Content */,
 			);
 			path = OnlineTuneCards;
+			sourceTree = "<group>";
+		};
+		40114C9D29EA2F3A00D6DFA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40114C9E29EA2F3A00D6DFA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9A0A665E29DA7B6500BF5FB0 /* FCMap */ = {
@@ -97,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9C7AAE2775736C00519111 /* Playground2 */,
-				40114C8729EA0AD500D6DFA9 /* OnlineTuneCards */,
+				40114C9629EA2F3A00D6DFA9 /* OnlineTuneCards */,
 				9A9C7AAD2775736C00519111 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9C7AAC2775736C00519111 /* Playground2.app */,
-				40114C8629EA0AD400D6DFA9 /* OnlineTuneCards */,
+				40114C9529EA2F3900D6DFA9 /* OnlineTuneCards.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,13 +150,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40114C8529EA0AD400D6DFA9 /* OnlineTuneCards */ = {
+		40114C9429EA2F3900D6DFA9 /* OnlineTuneCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40114C8A29EA0AD500D6DFA9 /* Build configuration list for PBXNativeTarget "OnlineTuneCards" */;
+			buildConfigurationList = 40114CA029EA2F3A00D6DFA9 /* Build configuration list for PBXNativeTarget "OnlineTuneCards" */;
 			buildPhases = (
-				40114C8229EA0AD400D6DFA9 /* Sources */,
-				40114C8329EA0AD400D6DFA9 /* Frameworks */,
-				40114C8429EA0AD400D6DFA9 /* CopyFiles */,
+				40114C9129EA2F3900D6DFA9 /* Sources */,
+				40114C9229EA2F3900D6DFA9 /* Frameworks */,
+				40114C9329EA2F3900D6DFA9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,8 +164,8 @@
 			);
 			name = OnlineTuneCards;
 			productName = OnlineTuneCards;
-			productReference = 40114C8629EA0AD400D6DFA9 /* OnlineTuneCards */;
-			productType = "com.apple.product-type.tool";
+			productReference = 40114C9529EA2F3900D6DFA9 /* OnlineTuneCards.app */;
+			productType = "com.apple.product-type.application";
 		};
 		9A9C7AAB2775736C00519111 /* Playground2 */ = {
 			isa = PBXNativeTarget;
@@ -185,7 +198,7 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					40114C8529EA0AD400D6DFA9 = {
+					40114C9429EA2F3900D6DFA9 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 					9A9C7AAB2775736C00519111 = {
@@ -211,12 +224,21 @@
 			projectRoot = "";
 			targets = (
 				9A9C7AAB2775736C00519111 /* Playground2 */,
-				40114C8529EA0AD400D6DFA9 /* OnlineTuneCards */,
+				40114C9429EA2F3900D6DFA9 /* OnlineTuneCards */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		40114C9329EA2F3900D6DFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40114C9F29EA2F3A00D6DFA9 /* Preview Assets.xcassets in Resources */,
+				40114C9C29EA2F3A00D6DFA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A9C7AAA2775736C00519111 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,12 +251,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40114C8229EA0AD400D6DFA9 /* Sources */ = {
+		40114C9129EA2F3900D6DFA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40114C8E29EA197800D6DFA9 /* CSV.swift in Sources */,
-				40114C8929EA0AD500D6DFA9 /* OnlineTuneCards.swift in Sources */,
+				40114C9A29EA2F3A00D6DFA9 /* ContentView.swift in Sources */,
+				40114CA629EA2FA800D6DFA9 /* TuneCardDetailView.swift in Sources */,
+				40114C9829EA2F3A00D6DFA9 /* OnlineTuneCardsApp.swift in Sources */,
+				40114CA429EA2F4700D6DFA9 /* OnlineTuneCards.swift in Sources */,
+				40114CA329EA2F4300D6DFA9 /* CSV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,31 +281,77 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		40114C8B29EA0AD500D6DFA9 /* Debug */ = {
+		40114CA129EA2F3A00D6DFA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnlineTuneCards/Preview Content\"";
 				DEVELOPMENT_TEAM = 84WPVNZ8GM;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnlineTuneCards/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We just need to know";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We just need to know";
+				INFOPLIST_KEY_NSLocationTemporaryUsageDescriptionDictionary = "We just need to know";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We just need to know";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We just need to know";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdinAck.OnlineTuneCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		40114C8C29EA0AD500D6DFA9 /* Release */ = {
+		40114CA229EA2F3A00D6DFA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnlineTuneCards/Preview Content\"";
 				DEVELOPMENT_TEAM = 84WPVNZ8GM;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnlineTuneCards/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We just need to know";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We just need to know";
+				INFOPLIST_KEY_NSLocationTemporaryUsageDescriptionDictionary = "We just need to know";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We just need to know";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We just need to know";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdinAck.OnlineTuneCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -485,11 +556,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40114C8A29EA0AD500D6DFA9 /* Build configuration list for PBXNativeTarget "OnlineTuneCards" */ = {
+		40114CA029EA2F3A00D6DFA9 /* Build configuration list for PBXNativeTarget "OnlineTuneCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40114C8B29EA0AD500D6DFA9 /* Debug */,
-				40114C8C29EA0AD500D6DFA9 /* Release */,
+				40114CA129EA2F3A00D6DFA9 /* Debug */,
+				40114CA229EA2F3A00D6DFA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
