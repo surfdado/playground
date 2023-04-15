@@ -22,7 +22,7 @@ class Visitor: IteratorProtocol, Sequence {
 }
 
 class CSV {
-    static let newline: String = "\n"
+    static let newline: String = "\r\n"
     static let comma: String = ","
     
     private let string: String

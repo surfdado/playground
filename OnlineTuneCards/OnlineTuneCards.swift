@@ -17,7 +17,12 @@ class OnlineTuneCards {
         
         let tunes = tunesFromCSV(csv)
         
-        print(tunes)
+        print(tunes.map({ tune in
+            (
+                tune["_name"]!!,
+                tune["double_mahony_kp"]!!
+            )
+        }))
     }
     
     static func fetchCSV(from url: URL) async throws -> String {
@@ -52,6 +57,6 @@ class OnlineTuneCards {
             return Bool(value)
         }
         
-        return ["", "\r"].contains(value) ? nil : value
+        return [""].contains(value) ? nil : value
     }
 }
