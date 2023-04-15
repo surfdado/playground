@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40114C8129EA0A1B00D6DFA9 /* TuneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8029EA0A1B00D6DFA9 /* TuneCard.swift */; };
+		40114C8929EA0AD500D6DFA9 /* OnlineTuneCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */; };
+		40114C8E29EA197800D6DFA9 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40114C8D29EA197800D6DFA9 /* CSV.swift */; };
 		4090329C29DC7F7000582819 /* NativePartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 4090329B29DC7F7000582819 /* NativePartialSheet */; };
 		9A0A666129DA7B8700BF5FB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A665F29DA7B8700BF5FB0 /* MapView.swift */; };
 		9A0A666229DA7B8700BF5FB0 /* LocationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */; };
@@ -18,7 +21,23 @@
 		9AE5FCEA29D91AFC002B76A3 /* Map in Frameworks */ = {isa = PBXBuildFile; productRef = 9AE5FCE929D91AFC002B76A3 /* Map */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		40114C8429EA0AD400D6DFA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		40114C8029EA0A1B00D6DFA9 /* TuneCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneCard.swift; sourceTree = "<group>"; };
+		40114C8629EA0AD400D6DFA9 /* OnlineTuneCards */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OnlineTuneCards; sourceTree = BUILT_PRODUCTS_DIR; };
+		40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTuneCards.swift; sourceTree = "<group>"; };
+		40114C8D29EA197800D6DFA9 /* CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		9A0A665F29DA7B8700BF5FB0 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Playground2/MapView.swift; sourceTree = SOURCE_ROOT; };
 		9A0A666029DA7B8700BF5FB0 /* LocationMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationMgr.swift; path = Playground2/LocationMgr.swift; sourceTree = SOURCE_ROOT; };
 		9A0A666329DA7C7900BF5FB0 /* AlertAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertAnnotation.swift; path = Playground2/AlertAnnotation.swift; sourceTree = SOURCE_ROOT; };
@@ -31,6 +50,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		40114C8329EA0AD400D6DFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A9C7AA92775736C00519111 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40114C8729EA0AD500D6DFA9 /* OnlineTuneCards */ = {
+			isa = PBXGroup;
+			children = (
+				40114C8829EA0AD500D6DFA9 /* OnlineTuneCards.swift */,
+				40114C8D29EA197800D6DFA9 /* CSV.swift */,
+			);
+			path = OnlineTuneCards;
+			sourceTree = "<group>";
+		};
 		9A0A665E29DA7B6500BF5FB0 /* FCMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9C7AAE2775736C00519111 /* Playground2 */,
+				40114C8729EA0AD500D6DFA9 /* OnlineTuneCards */,
 				9A9C7AAD2775736C00519111 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9C7AAC2775736C00519111 /* Playground2.app */,
+				40114C8629EA0AD400D6DFA9 /* OnlineTuneCards */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +113,7 @@
 				9A0A665E29DA7B6500BF5FB0 /* FCMap */,
 				9A9C7AAF2775736C00519111 /* Playground2App.swift */,
 				9A9C7AB12775736C00519111 /* ContentView.swift */,
+				40114C8029EA0A1B00D6DFA9 /* TuneCard.swift */,
 				9A9C7AB32775737000519111 /* Assets.xcassets */,
 				9A9C7AB52775737000519111 /* Preview Content */,
 			);
@@ -93,6 +131,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		40114C8529EA0AD400D6DFA9 /* OnlineTuneCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40114C8A29EA0AD500D6DFA9 /* Build configuration list for PBXNativeTarget "OnlineTuneCards" */;
+			buildPhases = (
+				40114C8229EA0AD400D6DFA9 /* Sources */,
+				40114C8329EA0AD400D6DFA9 /* Frameworks */,
+				40114C8429EA0AD400D6DFA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineTuneCards;
+			productName = OnlineTuneCards;
+			productReference = 40114C8629EA0AD400D6DFA9 /* OnlineTuneCards */;
+			productType = "com.apple.product-type.tool";
+		};
 		9A9C7AAB2775736C00519111 /* Playground2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A9C7ABA2775737000519111 /* Build configuration list for PBXNativeTarget "Playground2" */;
@@ -121,9 +176,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					40114C8529EA0AD400D6DFA9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					9A9C7AAB2775736C00519111 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -147,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				9A9C7AAB2775736C00519111 /* Playground2 */,
+				40114C8529EA0AD400D6DFA9 /* OnlineTuneCards */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +223,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		40114C8229EA0AD400D6DFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40114C8E29EA197800D6DFA9 /* CSV.swift in Sources */,
+				40114C8929EA0AD500D6DFA9 /* OnlineTuneCards.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A9C7AA82775736C00519111 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +239,7 @@
 				9A9C7AB22775736C00519111 /* ContentView.swift in Sources */,
 				9A0A666129DA7B8700BF5FB0 /* MapView.swift in Sources */,
 				9A0A666429DA7C7900BF5FB0 /* AlertAnnotation.swift in Sources */,
+				40114C8129EA0A1B00D6DFA9 /* TuneCard.swift in Sources */,
 				9A0A666229DA7B8700BF5FB0 /* LocationMgr.swift in Sources */,
 				9A9C7AB02775736C00519111 /* Playground2App.swift in Sources */,
 			);
@@ -179,6 +248,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		40114C8B29EA0AD500D6DFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84WPVNZ8GM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40114C8C29EA0AD500D6DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84WPVNZ8GM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		9A9C7AB82775737000519111 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,6 +475,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		40114C8A29EA0AD500D6DFA9 /* Build configuration list for PBXNativeTarget "OnlineTuneCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40114C8B29EA0AD500D6DFA9 /* Debug */,
+				40114C8C29EA0AD500D6DFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A9C7AA72775736C00519111 /* Build configuration list for PBXProject "Playground2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

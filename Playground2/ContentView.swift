@@ -110,7 +110,6 @@ struct ContentView3: View {
         }
         .presentationDetents([.large, .medium])
         .presentationDragIndicator(.visible)
-        .edgeAttachedInCompactHeight(true)
     }
     func updateOffset() {
         DispatchQueue.main.async {
