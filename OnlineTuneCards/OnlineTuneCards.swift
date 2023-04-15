@@ -13,7 +13,7 @@ typealias TuneCard = [String: Any?]
 class OnlineTuneCards {
     static func main() async throws {
         let url = URL(string: "http://us-central1-mimetic-union-377520.cloudfunctions.net/float_package_tunes_via_http")!
-        let csv = try await fetchCSV(from: url)
+        let csv = try fetchCSV(from: url)
         
         let tunes = tunesFromCSV(csv)
         
@@ -25,7 +25,7 @@ class OnlineTuneCards {
         }))
     }
     
-    static func fetchCSV(from url: URL) async throws -> String {
+    static func fetchCSV(from url: URL) throws -> String {
         let contents = try String(contentsOf: url)
         return contents
     }
